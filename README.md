@@ -32,11 +32,11 @@
 
 ### #5 TAILWIND PRACTICE
 
-- [ ] #5.0 Introduction (03:08)
-- [ ] #5.1 Auth part One (11:49)
-- [ ] #5.2 Auth part Two (13:29)
-- [ ] #5.3 Home Screen (10:20)
-- [ ] #5.4 Item Detail (12:02)
+- [x] #5.0 Introduction (03:08)
+- [x] #5.1 Auth part One (11:49)
+- [x] #5.2 Auth part Two (13:29)
+- [x] #5.3 Home Screen (10:20)
+- [x] #5.4 Item Detail (12:02)
 - [ ] #5.5 Upload Item (11:27)
       <br>
 - [ ] #5.6 Community (06:42)
