@@ -6,6 +6,7 @@
 
 - [#4 TOUR OF TAILWIND](#4-tour-of-tailwind)
 - [#5 TAILWIND PRACTICE](#5-tailwind-practice)
+- [#6 DATABASE SETUP](#6-database-setup)
 
 <br>
 
@@ -58,6 +59,23 @@
 <br>
 
 - [x] #5.15 Add Stream (03:59)
-- [ ] #5.16 Layout part One (10:34)
-- [ ] #5.17 Layout part Two (10:23)
-- [ ] #5.18 Conclusions (03:02)
+- [x] [#5.16 Layout part One (10:34)](https://github.com/chaehaeun/Carrot-Market/issues/1)
+- [x] #5.17 Layout part Two (10:23)
+- [x] #5.18 Conclusions (03:02)
+
+<br>
+
+### #6 DATABASE SETUP
+
+- [ ] #6.0 Before We Start (06:29)
+- [ ] #6.1 What is Prisma (04:16)
+- [ ] #6.2 Prisma Setup (08:53)
+- [ ] #6.3 What is PlanetScale (06:55)
+- [ ] #6.4 Connecting to PlanetScale (09:19)
+
+<br/>
+
+- [ ] #6.5 Push To PlanetScale (12:19)
+- [ ] #6.6 Prisma Client (11:28)
+- [ ] #6.7 API Routes (07:59)
+- [ ] #6.8 Recap (05:30)
