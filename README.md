@@ -4,8 +4,8 @@
 
 ## 💡 목차
 
-- [#4 TOUR OF TAILWIND](#-4-TOUR-OF-TAILWIND)
-- [#5 TAILWIND PRACTICE](#-5-TAILWIND-PRACTICE)
+- [#4 TOUR OF TAILWIND](#-#4-tour-of-tailwind)
+- [#5 TAILWIND PRACTICE](#-#5-tailwind-practice)
 
 <br>
 
