@@ -38,20 +38,26 @@
 - [x] #5.3 Home Screen (10:20)
 - [x] #5.4 Item Detail (12:02)
 - [x] #5.5 Upload Item (11:27)
-      <br>
+
+<br>
+
 - [x] #5.6 Community (06:42)
 - [x] #5.7 Community Detail (08:53)
 - [x] #5.7 Write (02:35)
 - [x] #5.8 Chats (05:02)
 - [x] #5.9 Chat Detail (11:49)
-      <br>
-- [ ] #5.10 Profile (05:52)
-- [ ] #5.11 Bought, Loved and Sold (02:34)
-- [ ] #5.12 Edit Profile (06:55)
-- [ ] #5.13 Streams (05:42)
-- [ ] #5.14 Stream (04:31)
-      <br>
-- [ ] #5.15 Add Stream (03:59)
+
+<br>
+
+- [x] #5.10 Profile (05:52)
+- [x] #5.11 Bought, Loved and Sold (02:34)
+- [x] #5.12 Edit Profile (06:55)
+- [x] #5.13 Streams (05:42)
+- [x] #5.14 Stream (04:31)
+
+<br>
+
+- [x] #5.15 Add Stream (03:59)
 - [ ] #5.16 Layout part One (10:34)
 - [ ] #5.17 Layout part Two (10:23)
 - [ ] #5.18 Conclusions (03:02)
