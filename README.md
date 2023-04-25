@@ -7,6 +7,7 @@
 - [#4 TOUR OF TAILWIND](#4-tour-of-tailwind)
 - [#5 TAILWIND PRACTICE](#5-tailwind-practice)
 - [#6 DATABASE SETUP](#6-database-setup)
+- [#7 REACT HOOK FORM](#7-react-hook-form)
 
 <br>
 
@@ -17,14 +18,18 @@
 - [x] #4.2 Test Drive part Two (08:52)
 - [x] #4.3 Test Drive part Three (13:06)
 - [x] #4.4 Modifiers (07:20)
-      <br>
+
+<br>
+
 - [x] #4.5 Transitions (09:59)
 - [x] #4.6 Modifiers for Lists (07:00)
 - [x] #4.7 Modifiers for Forms (18:38)
 - [x] #4.8 More Modifiers (12:48)
 - [x] #4.9 Responsive Modifiers (09:05)
 - [x] #4.10 Responsive Modifiers part Two (09:10)
-      <br>
+
+<br>
+
 - [x] #4.11 Dark Mode (10:10)
 - [x] #4.12 Just In Time Compiler (11:18)
 - [x] #4.13 Conclusions (01:09)
@@ -67,15 +72,30 @@
 
 ### #6 DATABASE SETUP
 
-- [ ] #6.0 Before We Start (06:29)
-- [ ] #6.1 What is Prisma (04:16)
-- [ ] #6.2 Prisma Setup (08:53)
-- [ ] #6.3 What is PlanetScale (06:55)
-- [ ] #6.4 Connecting to PlanetScale (09:19)
+- [x] #6.0 Before We Start (06:29)
+- [x] [#6.1 What is Prisma (04:16)](https://github.com/chaehaeun/Carrot-Market/issues/2)
+- [x] #6.2 Prisma Setup (08:53)
+- [x] #6.3 What is PlanetScale (06:55)
+- [x] #6.4 Connecting to PlanetScale (09:19)
 
 <br/>
 
-- [ ] #6.5 Push To PlanetScale (12:19)
-- [ ] #6.6 Prisma Client (11:28)
-- [ ] #6.7 API Routes (07:59)
-- [ ] #6.8 Recap (05:30)
+- [x] #6.5 Push To PlanetScale (12:19)
+- [x] #6.6 Prisma Client (11:28)
+- [x] #6.7 API Routes (07:59)
+- [x] #6.8 Recap (05:30)
+
+<br/>
+
+### #7 REACT HOOK FORM
+
+- [ ] #7.0 Introduction (02:50)
+- [ ] #7.1 Making Forms Alone (14:07)
+- [ ] #7.2 The Register Function (09:39)
+- [ ] #7.3 Validation (08:23)
+- [ ] #7.4 Validation part Two (09:16)
+
+<br/>
+
+- [ ] #7.5 Errors (11:01)
+- [ ] #7.6 Extras (07:27)
