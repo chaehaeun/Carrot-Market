@@ -1,13 +1,6 @@
 import React from "react";
 import { useForm, FieldErrors } from "react-hook-form";
 
-// Less code (c)
-// Better validation
-// Better Erros (set, clear, display)
-// Have control over inputs
-// Dont deal with events (c)
-// Easier Inputs (c)
-
 interface LoginForm {
   username: string;
   email: string;
@@ -15,7 +8,11 @@ interface LoginForm {
 }
 
 const Form = () => {
-  const { register, handleSubmit } = useForm<LoginForm>();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<LoginForm>({ mode: "onChange" });
   // register : input 을 등록하는 함수
   // watch : input(value)을 감시하는 함수
   // handleSubmit : submit 이벤트를 처리하는 함수
@@ -44,10 +41,20 @@ const Form = () => {
         placeholder="User name"
       />
       <input
-        {...register("email", { required: "Email is required!" })}
+        {...register("email", {
+          required: "Email is required!",
+          validate: {
+            // validate : 유효성 검사를 할 수 있는 함수를 받음
+            notGmail: (value) =>
+              !value.includes("@gmail.com") || "Gmail is not allowed!",
+          },
+        })}
         type="email"
         placeholder="User email"
+        className={`${Boolean(errors.email?.message) ? "border-red-500" : ""}`}
       />
+      {errors.email?.message}
+      {/* errors.email이 존재하면 errors.email.message를출력 */}
       <input
         {...register("password", { required: "Password is required!" })}
         type="password"
