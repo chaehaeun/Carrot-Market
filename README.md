@@ -89,9 +89,9 @@
 
 ### #7 REACT HOOK FORM
 
-- [ ] #7.0 Introduction (02:50)
-- [ ] #7.1 Making Forms Alone (14:07)
-- [ ] #7.2 The Register Function (09:39)
+- [x] #7.0 Introduction (02:50)
+- [x] #7.1 Making Forms Alone (14:07)
+- [x] #7.2 The Register Function (09:39)
 - [ ] #7.3 Validation (08:23)
 - [ ] #7.4 Validation part Two (09:16)
 
