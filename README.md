@@ -87,15 +87,15 @@
 
 <br/>
 
-### #7 REACT HOOK FORM
+### [#7 REACT HOOK FORM](https://github.com/chaehaeun/Carrot-Market/issues/4)
 
 - [x] #7.0 Introduction (02:50)
 - [x] #7.1 Making Forms Alone (14:07)
 - [x] #7.2 The Register Function (09:39)
-- [ ] #7.3 Validation (08:23)
-- [ ] #7.4 Validation part Two (09:16)
+- [x] #7.3 Validation (08:23)
+- [x] #7.4 Validation part Two (09:16)
 
 <br/>
 
-- [ ] #7.5 Errors (11:01)
-- [ ] #7.6 Extras (07:27)
+- [x] #7.5 Errors (11:01)
+- [x] #7.6 Extras (07:27)
