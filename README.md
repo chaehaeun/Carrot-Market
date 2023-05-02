@@ -8,6 +8,8 @@
 - [#5 TAILWIND PRACTICE](#5-tailwind-practice)
 - [#6 DATABASE SETUP](#6-database-setup)
 - [#7 REACT HOOK FORM](#7-react-hook-form)
+- [#8 REFACTORING](#8-refactoring)
+- [#9 AUTHENTICATION](#9-authentication)
 
 <br>
 
@@ -99,3 +101,33 @@
 
 - [x] #7.5 Errors (11:01)
 - [x] #7.6 Extras (07:27)
+
+<br/>
+
+### #8 REFACTORING
+
+- [x] #8.0 Enter Form (08:40)
+- [x] #8.1 Form Submission (08:24)
+- [ ] #8.2 Clean Code part One (08:49)
+- [ ] #8.3 Clean Code part Two (07:31)
+- [ ] #8.4 withHandler (12:58)
+- [ ] #8.5 Paths (05:06)
+
+<br/>
+
+### #9 AUTHENTICATION
+
+- [ ] #9.0 Introduction (04:40)
+- [ ] #9.1 Accounts Logic (14:35)
+- [ ] #9.2 Token Logic (15:01)
+- [ ] #9.3 Twilo Setup (09:33)
+- [ ] #9.4 Sending SMS (07:11)
+
+<br/>
+
+- [ ] #9.5 Sending Email (06:56)
+- [ ] #9.6 Token UI (16:22)
+- [ ] #9.7 Serverless Sessions (13:22)
+- [ ] #9.8 Profile Handler (05:18)
+- [ ] #9.9 Cleaning Code (11:49)
+- [ ] #9.10 NextAuth (05:50)
