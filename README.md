@@ -108,10 +108,10 @@
 
 - [x] #8.0 Enter Form (08:40)
 - [x] #8.1 Form Submission (08:24)
-- [ ] #8.2 Clean Code part One (08:49)
-- [ ] #8.3 Clean Code part Two (07:31)
-- [ ] #8.4 withHandler (12:58)
-- [ ] #8.5 Paths (05:06)
+- [x] #8.2 Clean Code part One (08:49)
+- [x] #8.3 Clean Code part Two (07:31)
+- [x] #8.4 withHandler (12:58)
+- [x] #8.5 Paths (05:06)
 
 <br/>
 
