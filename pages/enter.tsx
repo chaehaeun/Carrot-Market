@@ -1,10 +1,11 @@
 import type { NextPage } from "next";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Button from "@/components/button";
 import Input from "@/components/input";
 import { cls } from "@/libs/client/utils";
 import { useForm } from "react-hook-form";
 import useMutation from "@/libs/client/useMutation";
+import { useRouter } from 'next/router';
 
 interface EnterForm {
   email?: string;
@@ -26,6 +27,8 @@ const Enter: NextPage = () => {
   const { register, reset, handleSubmit } = useForm<EnterForm>();
   const {register:tokenRegister, handleSubmit:tokenHandleSubmit} = useForm<TokenForm>();
   const [method, setMethod] = useState<"email" | "phone">("email");
+  const router = useRouter();
+
   const onEmailClick = () => {
     reset();
     setMethod("email");
@@ -43,6 +46,12 @@ const Enter: NextPage = () => {
     if(tokenLoading) return;
     confirmToken(validForm);
   }
+
+  useEffect(()=> {
+    if (tokenData?.ok) {
+      router.push("/")
+    }
+  }, [tokenData, router]) // 토큰이 정상적으로 입력되면 메인페이지로 이동함
 
   return (
     <div className="px-4 mt-16">

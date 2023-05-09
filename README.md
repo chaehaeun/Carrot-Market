@@ -117,17 +117,17 @@
 
 ### #9 AUTHENTICATION
 
-- [ ] #9.0 Introduction (04:40)
-- [ ] #9.1 Accounts Logic (14:35)
-- [ ] #9.2 Token Logic (15:01)
-- [ ] #9.3 Twilo Setup (09:33)
-- [ ] #9.4 Sending SMS (07:11)
+- [x] #9.0 Introduction (04:40)
+- [x] #9.1 Accounts Logic (14:35)
+- [x] #9.2 Token Logic (15:01)
+- [x] #9.3 Twilo Setup (09:33)
+- [x] #9.4 Sending SMS (07:11)
 
 <br/>
 
-- [ ] #9.5 Sending Email (06:56)
-- [ ] #9.6 Token UI (16:22)
-- [ ] #9.7 Serverless Sessions (13:22)
-- [ ] #9.8 Profile Handler (05:18)
-- [ ] #9.9 Cleaning Code (11:49)
-- [ ] #9.10 NextAuth (05:50)
+- [x] #9.5 Sending Email (06:56)
+- [x] #9.6 Token UI (16:22)
+- [x] #9.7 Serverless Sessions (13:22)
+- [x] #9.8 Profile Handler (05:18)
+- [x] #9.9 Cleaning Code (11:49)
+- [x] #9.10 NextAuth (05:50)
