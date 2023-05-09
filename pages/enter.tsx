@@ -11,10 +11,20 @@ interface EnterForm {
   phone?: string;
 }
 
+interface TokenForm {
+  token: string;
+}
+
+interface EnterMutationResult {
+  ok: boolean;
+}
+
 const Enter: NextPage = () => {
-  const [enter, { loading, data, error }] = useMutation("api/users/enter");
+  const [enter, { loading, data, error }] = useMutation<EnterMutationResult>("api/users/enter");
+  const [confirmToken, { loading:tokenLoading, data:tokenData }] = useMutation<EnterMutationResult>("api/users/confirm");
   const [submitting, setSubmitting] = useState(false);
   const { register, reset, handleSubmit } = useForm<EnterForm>();
+  const {register:tokenRegister, handleSubmit:tokenHandleSubmit} = useForm<TokenForm>();
   const [method, setMethod] = useState<"email" | "phone">("email");
   const onEmailClick = () => {
     reset();
@@ -29,12 +39,32 @@ const Enter: NextPage = () => {
     enter(validForm);
   };
 
+  const onTokenValid = (validForm: TokenForm) => {
+    if(tokenLoading) return;
+    confirmToken(validForm);
+  }
+
   return (
     <div className="px-4 mt-16">
       <h3 className="text-3xl font-bold text-center">Enter to Carrot</h3>
       <div className="mt-12">
 
-        {data?.ok ? null : <>    <div className="flex flex-col items-center">
+        {data?.ok ?  <form
+          onSubmit={tokenHandleSubmit(onTokenValid)}
+          className="flex flex-col mt-8 space-y-4"
+        >
+        
+            <Input
+              register={tokenRegister("token", {
+                required: true,
+              })}
+              name="token"
+              label="Confirmation Token"
+              type="number"
+              required
+            />
+            <Button text={ tokenLoading ? "Loading" : "Confirm Token"} />
+        </form> : (<><div className="flex flex-col items-center">
           <h5 className="text-sm font-medium text-gray-500">Enter using:</h5>
           <div className="grid w-full grid-cols-2 mt-8 border-b ">
             <button
@@ -92,7 +122,9 @@ const Enter: NextPage = () => {
           {method === "phone" ? (
             <Button text={submitting ? "Loading" : "Get one-time password"} />
           ) : null}
-        </form></> }
+        </form>
+        </> )
+        }
     
 
         <div className="mt-8">
