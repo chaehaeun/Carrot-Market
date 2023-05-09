@@ -22,7 +22,7 @@ const useMutation = (url: string): UseMutationResult => {
       },
       body: JSON.stringify(data),
     })
-      .then((response) => response.json().catch(() => {}))
+      .then((response) => response.json().catch(() => { }))
       .then((data) => setSate((prev) => ({ ...prev, data })))
       .catch((error) => setSate((prev) => ({ ...prev, error })))
       .finally(() => setSate((prev) => ({ ...prev, loading: false })));
